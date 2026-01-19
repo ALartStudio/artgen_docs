@@ -10,6 +10,7 @@
 - **Создать похожее** — сгенерировать вариацию
 - **Увеличение 2x** — улучшить разрешение
 - **Восстановление лица** — улучшить качество лиц
+- **Восстановление + Увеличение** — одним кликом восстановить лица и увеличить в 2 раза
 - **Расширение границ** — добавить контент за пределами изображения
 - **Копировать ссылку** — получить ссылку на изображение
 - **Скачать** — сохранить на устройство
@@ -17,15 +18,16 @@
 
 ## Разделы
 
-import { Cards } from 'nextra/components'
+import { Cards, Card } from '@/components/mdx'
 
 <Cards>
-  <Cards.Card title="Своё изображение" href="/ru/docs/generator/additional-actions/own-image" />
-  <Cards.Card title="Создать похожее" href="/ru/docs/generator/additional-actions/create-similar" />
-  <Cards.Card title="Увеличение 2x" href="/ru/docs/generator/additional-actions/upscale-2x" />
-  <Cards.Card title="Восстановление лица" href="/ru/docs/generator/additional-actions/face-restoration" />
-  <Cards.Card title="Расширение границ" href="/ru/docs/generator/additional-actions/outpainting" />
-  <Cards.Card title="Копировать ссылку" href="/ru/docs/generator/additional-actions/copy-link" />
-  <Cards.Card title="Скачать" href="/ru/docs/generator/additional-actions/download" />
-  <Cards.Card title="Полноэкранный режим" href="/ru/docs/generator/additional-actions/fullscreen" />
+  <Card title="Своё изображение" href="/ru/docs/generator/additional-actions/own-image" />
+  <Card title="Создать похожее" href="/ru/docs/generator/additional-actions/create-similar" />
+  <Card title="Увеличение 2x" href="/ru/docs/generator/additional-actions/upscale-2x" />
+  <Card title="Восстановление лица" href="/ru/docs/generator/additional-actions/face-restoration" />
+  <Card title="Восстановление + Увеличение" href="/ru/docs/generator/additional-actions/restoration-upscale" />
+  <Card title="Расширение границ" href="/ru/docs/generator/additional-actions/outpainting" />
+  <Card title="Копировать ссылку" href="/ru/docs/generator/additional-actions/copy-link" />
+  <Card title="Скачать" href="/ru/docs/generator/additional-actions/download" />
+  <Card title="Полноэкранный режим" href="/ru/docs/generator/additional-actions/fullscreen" />
 </Cards>
